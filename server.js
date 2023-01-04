@@ -5,7 +5,7 @@ const cors = require('cors');
 const fileUpload = require('express-fileupload');
 
 const app = express();
-const port = 3200;
+const port = 3800;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
